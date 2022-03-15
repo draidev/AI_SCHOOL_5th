@@ -1,15 +1,38 @@
-total_list = []
+""" 집합 자료형과 랜덤함수를 사용한 메뉴추천 프로그램 """
+import random
+import time
+
+lunch = ["된장찌개","피자","제육볶음","짜장면"]
 
 while True:
-    question = input()
-    if question == 'q':
+    print(lunch)
+    item = input("음식을 추가 해주세요 : ")
+    if item == "q":
         break
     else:
-        total_list.append({"질문" : question, "답변" : ""})
+        lunch.append(item)
+print(lunch)
 
-for i in total_list:
-    print(i["질문"])
-    answer = input()
-    i["답변"] = answer
+set_lunch = set(lunch)
+while True:
+    print(set_lunch)
+    item = input("음식을 삭제해주세요 : ")
+    if item == "q":
+        break
+    else:
+        set_lunch = set_lunch - set([item])
 
-print(total_list)
+print(set_lunch, "중에서 선택합니다.")
+print("5")
+time.sleep(1)
+print("4")
+time.sleep(1)
+print("3")
+time.sleep(1)
+print("2")
+time.sleep(1)
+print("1")
+time.sleep(1)
+
+#random.choice는 리스트 자료형에 대해서만 작동한다.
+print(random.choice(list(set_lunch)))
