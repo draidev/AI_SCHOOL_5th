@@ -1,2 +1,2 @@
 # AI_SCHOOL_5th
-:zap:CODELION AI SCHOOL 5기 강의/CODE/자료
+:cat:CODELION AI SCHOOL 5기 강의/CODE/자료
