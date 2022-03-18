@@ -26,7 +26,7 @@ message["From"] = "###m@gmail.com"
 message["To"] = "###@gmail.com" 
 
 
-with open("codelion.jpg","rb") as image:
+with open("./images/codelion.jpg","rb") as image:
     image_file = image.read()
 
 """ imghdr.what(파일명, 파일 데이터) """
