@@ -3,27 +3,26 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 headers = {'User_Agent'}
-url = "https://datalab.naver.com/"
-response = requests.get(url, headers=headers)
+url = "https://naver.com/"
+response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
-print(soup.findAll('span','item_title'))
-
+#print(soup.findAll('span','item_title'))
 
 naver_datalab = open("naver_datalab.html","w")
 naver_datalab.write(response.text)
 naver_datalab.close()
 
-print(response.text)
+#print(response.text)
 
-# results = soup.findAll('li','air_item')
+results = soup.findAll('li','air_item')
 
-# search_dust_file  = open("dustresult.txt","a")
+search_dust_file  = open("dustresult.txt","a")
 
-# print(datetime.today().strftime("%Y년 %m월 %d일의 미세먼지 \n"))
+print(datetime.today().strftime("%Y년 %m월 %d일의 미세먼지 \n"))
 
-# for result in results:
-#     search_dust_file.write(result.get_text()+"\n")
-#     print(result.get_text(),"\n")
+for result in results:
+    search_dust_file.write(result.get_text()+"\n")
+    print(result.get_text(),"\n")
 
 
 # print(soup.title)  #soup의 title태그만 가져온다
