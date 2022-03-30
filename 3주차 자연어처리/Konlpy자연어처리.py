@@ -1,4 +1,3 @@
-from isort import file
 import numpy as np
 import pandas as pd
 from konlpy.tag import Okt
@@ -17,7 +16,7 @@ from matplotlib import font_manager, rc
 font_name = matplotlib.font_manager.FontProperties(fname="C:/Windows/Fonts/malgun.ttf").get_name() # NanumGothic.otf
 matplotlib.rc('font', family=font_name)
 
-df = pd.read_excel('result_220329_0101.xlsx')
+df = pd.read_excel('./excelfiles/result_220329_0101.xlsx')
 
 articles = df['Article'].tolist()
 
@@ -72,5 +71,3 @@ plt.imshow(word_cloud, interpolation='bilinear')
 plt.axis("off")
 plt.tight_layout(pad=0)
 plt.show()
-
-
