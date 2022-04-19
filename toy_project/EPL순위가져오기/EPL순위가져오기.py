@@ -1,10 +1,20 @@
 from bs4 import BeautifulSoup
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
 from datetime import datetime
 
-driver = webdriver.Chrome(executable_path="C:/Users/user/Downloads/chromedriver_win32/chromedriver.exe")
+""" chromedriver 설치 """
+service = Service(executable_path=ChromeDriverManager().install())
+driver = webdriver.Chrome(service=service)
 url = 'https://sports.news.naver.com/wfootball/record/index?category=epl&year=2021&tab=team'
+
 driver.get(url)
+
+# 버전이 바뀌면서 chromedriver를 알아서 실행해주는 걸로 변경됨
+# driver = webdriver.Chrome(executable_path="C:/Users/user/Downloads/chromedriver_win32/chromedriver.exe")
+# url = 'https://sports.news.naver.com/wfootball/record/index?category=epl&year=2021&tab=team'
+# driver.get(url)
 
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 
