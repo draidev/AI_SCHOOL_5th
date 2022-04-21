@@ -6,10 +6,14 @@
 
 # 3주차 자연어처리
 - [konlpy 한국어 텍스트 분석과 시각화](https://jeonjoon.tistory.com/32)
+- [Wordcloud 만들기](https://jeonjoon.tistory.com/33)  
+- [Selenium으로 번역기 돌리기](https://jeonjoon.tistory.com/34) 
+<br><br>
 
 # 4주차 Semi_project1  
+**Semi_Project_01 -> 발표ppt_0406최종.pdf**
 
-
+<br><br>
 
 # 5주차 머신러닝 핵심 이론 & 주요 알고리즘 이론
 ## Linear Regression(선형 회귀)
