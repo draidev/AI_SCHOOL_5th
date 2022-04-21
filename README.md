@@ -16,6 +16,7 @@
 <br><br>
 
 # 5주차 머신러닝 핵심 이론 & 주요 알고리즘 이론
-## Linear Regression(선형 회귀)
-- [선형 회귀Wiki](https://ko.wikipedia.org/wiki/선형_회귀)  
-- [선형 회귀(딥러닝을 이용한 자연어 처리 입문)](https://wikidocs.net/21670)
+- [인공지능과 머신러닝의 개념과 분류](https://jeonjoon.tistory.com/40)  
+- [Linear Regression(선형 회귀) & Gradient Descent Algorithm(경사하강법)](https://jeonjoon.tistory.com/43)  
+- [K-Means algorithm](https://jeonjoon.tistory.com/41)  
+- [PCA ( Principal Component Analysis)](https://jeonjoon.tistory.com/42)
