@@ -1,8 +1,6 @@
 # AI_SCHOOL_5th
 :cat:CODELION AI SCHOOL 5기 강의/CODE/자료
 
-## Toy_project
-- [Python 웹크롤링 - EPL순위 가져오기](https://jeonjoon.tistory.com/18?category=544964)
 
 # 3주차 자연어처리
 - [konlpy 한국어 텍스트 분석과 시각화](https://jeonjoon.tistory.com/32)
@@ -20,3 +18,10 @@
 - [Linear Regression(선형 회귀) & Gradient Descent Algorithm(경사하강법)](https://jeonjoon.tistory.com/43)  
 - [K-Means algorithm](https://jeonjoon.tistory.com/41)  
 - [PCA ( Principal Component Analysis)](https://jeonjoon.tistory.com/42)
+
+<br>  
+
+---
+
+## Toy_project
+- [Python 웹크롤링 - EPL순위 가져오기](https://jeonjoon.tistory.com/18?category=544964)
