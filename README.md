@@ -23,13 +23,6 @@
 
 # Mid Project
 - 주제 : 강아지 사료 데이터 가공, 검색/추천 프로그램
-- selenium 크롤링 중 chrome not reachable 에러 발생시 코드
-```
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument("--no-sandbox")
-chrome_options.add_argument("--disable-setuid-sandbox")
-driver = webdriver.Chrome(service=service, chrome_options=chrome_options)
-```
 
 ---
 
