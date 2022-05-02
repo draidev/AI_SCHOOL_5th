@@ -28,11 +28,3 @@
 
 ## Toy_project
 - [Python 웹크롤링 - EPL순위 가져오기](https://jeonjoon.tistory.com/18?category=544964)
-
-# Mid Project
-- 주제 : 강아지 사료 데이터 가공, 검색/추천 프로그램
-
----
-
-## Toy_project
-- [Python 웹크롤링 - EPL순위 가져오기](https://jeonjoon.tistory.com/18?category=544964)
